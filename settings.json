@@ -1,0 +1,82 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.codeActionsOnSave": [
+        "source.organizeImports",
+        "source.addMissingImports",
+        "source.fixAll"
+    ],
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "bounded",
+    "editor.rulers": [
+        {
+            "column": 78,
+            "color": "#333"
+        }
+    ],
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "css.validate": false,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "javascript"
+    },
+    "tailwindCSS.colorDecorators": true,
+    "tailwindCSS.emmetCompletions": true,
+    "crates.localCargoIndexHash": "origin/HEAD",
+    "rust-analyzer.checkOnSave.overrideCommand": null,
+    "diffEditor.wordWrap": "on",
+    "evenBetterToml.formatter.columnWidth": 80,
+    "editor.cursorWidth": 2,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "fileHeaderComment.parameter": {
+        "*": {
+            "commentbegin": "/*",
+            "commentprefix": " *",
+            "commentend": "*/",
+            "company": "Unicorn AB",
+            "author": "Zolo",
+            "github": "https://github.com/zolodev"
+        }
+    },
+    "fileHeaderComment.template": {
+        "*": [
+            "${commentbegin}****************************************************************************",
+            "${commentprefix} Filename      : ${filename}",
+            "${commentprefix} Created       : ${date}",
+            "${commentprefix} Author        : ${author}",
+            "${commentprefix} Github        : ${github}",
+            "${commentprefix} Description   : ",
+            "****************************************************************************${commentend}",
+            "",
+            "//! # <Application or Lib Title>",
+            "//! ",
+            "//! <insert a short description here...>",
+            "",
+            "#![warn(clippy::all, clippy::pedantic)]"
+        ]
+    },
+    "rust-analyzer.inlayHints.renderColons": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "indentRainbow.colors": [
+        "rgba(3, 4, 94,0.15)",
+        "rgba(2, 62, 138,0.15)",
+        "rgba(0, 119, 182, 0.15)",
+        "rgba(0, 150, 199,0.15)",
+        "rgba(0, 180, 216,0.15)",
+        "rgba(72, 202, 228,0.15)",
+        "rgba(144, 224, 239,0.15)",
+        "rgba(144, 224, 239,0.1)",
+        "rgba(144, 224, 239,0.05)",
+        "rgba(144, 224, 239,0.025)"
+    ]
+}
