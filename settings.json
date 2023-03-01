@@ -46,6 +46,16 @@
         }
     },
     "fileHeaderComment.template": {
+        ".c": [
+            "${commentbegin}****************************************************************************",
+            "${commentprefix} Filename      : ${filename}",
+            "${commentprefix} Created       : ${date}",
+            "${commentprefix} Author        : ${author}",
+            "${commentprefix} Github        : ${github}",
+            "${commentprefix} Description   : ",
+            "****************************************************************************${commentend}",
+            ""
+        ],
         "*": [
             "${commentbegin}****************************************************************************",
             "${commentprefix} Filename      : ${filename}",
@@ -78,5 +88,6 @@
         "rgba(144, 224, 239,0.1)",
         "rgba(144, 224, 239,0.05)",
         "rgba(144, 224, 239,0.025)"
-    ]
+    ],
+    "files.eol": "\n"
 }
