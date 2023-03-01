@@ -1,33 +1,10 @@
-# $ code --list-extensions
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension bungcip.better-toml
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension doi.fileheadercomment
-code --install-extension donjayamanne.githistory
-code --install-extension evondev.indent-rainbow-palettes
-code --install-extension hbenl.vscode-test-explorer
-code --install-extension heybourn.headwind
-code --install-extension mhutchie.git-graph
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vscode-remote.remote-ssh-edit
-code --install-extension ms-vscode-remote.remote-wsl
-code --install-extension ms-vscode.cpptools
-code --install-extension ms-vscode.test-adapter-converter
-code --install-extension oderwat.indent-rainbow
-code --install-extension Orta.vscode-jest
-code --install-extension hbenl.vscode-test-explorer
-code --install-extension heybourn.headwind
-code --install-extension mhutchie.git-graph
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vscode-remote.remote-ssh-edit
-code --install-extension ms-vscode-remote.remote-wsl
-code --install-extension ms-vscode.cpptools
-code --install-extension ms-vscode.test-adapter-converter
-code --install-extension oderwat.indent-rainbow
-code --install-extension Orta.vscode-jest
-code --install-extension rust-lang.rust-analyzer
-code --install-extension serayuzgur.crates
-code --install-extension Swellaby.vscode-rust-test-adapter
-code --install-extension tamasfe.even-better-toml
-code --install-extension usernamehw.errorlens
-code --install-extension vadimcn.vscode-lldb
+#!/usr/bin/bash
+
+# Run the following command to update the extensions list
+# $ code --list-extensions > extensions.txt
+
+cat extensions.txt | while read extension || [[ -n $extension ]];
+do
+    code --install-extension $extension --force
+    # code --uninstall-extension $extension --force
+done
