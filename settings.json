@@ -6,9 +6,9 @@
         "source.addMissingImports",
         "source.fixAll"
     ],
-    "editor.quickSuggestions": {
-        "strings": true
-    },
+    // "editor.quickSuggestions": {
+    //     "strings": true
+    // },
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.wordWrap": "bounded",
@@ -31,6 +31,7 @@
     "rust-analyzer.checkOnSave.overrideCommand": null,
     "diffEditor.wordWrap": "on",
     "evenBetterToml.formatter.columnWidth": 80,
+    "editor.wordWrapColumn": 80,
     "editor.cursorWidth": 2,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
@@ -46,16 +47,6 @@
         }
     },
     "fileHeaderComment.template": {
-        ".c": [
-            "${commentbegin}****************************************************************************",
-            "${commentprefix} Filename      : ${filename}",
-            "${commentprefix} Created       : ${date}",
-            "${commentprefix} Author        : ${author}",
-            "${commentprefix} Github        : ${github}",
-            "${commentprefix} Description   : ",
-            "****************************************************************************${commentend}",
-            ""
-        ],
         "*": [
             "${commentbegin}****************************************************************************",
             "${commentprefix} Filename      : ${filename}",
@@ -78,16 +69,23 @@
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
     "indentRainbow.colors": [
-        "rgba(3, 4, 94,0.15)",
-        "rgba(2, 62, 138,0.15)",
-        "rgba(0, 119, 182, 0.15)",
-        "rgba(0, 150, 199,0.15)",
-        "rgba(0, 180, 216,0.15)",
-        "rgba(72, 202, 228,0.15)",
-        "rgba(144, 224, 239,0.15)",
-        "rgba(144, 224, 239,0.1)",
-        "rgba(144, 224, 239,0.05)",
-        "rgba(144, 224, 239,0.025)"
+        "rgba(24, 78, 119,0.15)",
+        "rgba(30, 96, 145,0.15)",
+        "rgba(26, 117, 159, 0.15)",
+        "rgba(22, 138, 173,0.15)",
+        "rgba(52, 160, 164,0.15)",
+        "rgba(82, 182, 154,0.15)",
+        "rgba(82, 182, 154,0.1)",
+        "rgba(82, 182, 154,0.05)",
+        "rgba(82, 182, 154,0.025)"
     ],
-    "files.eol": "\n"
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "cmake.configureOnOpen": true,
+    "editor.indentSize": "tabSize",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
 }
