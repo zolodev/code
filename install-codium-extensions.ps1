@@ -1,0 +1,1 @@
+Get-Content extensions.txt | ForEach-Object {codium --install-extension $_}
