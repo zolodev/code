@@ -87,5 +87,5 @@
     },
     "cmake.configureOnOpen": true,
     "editor.indentSize": "tabSize",
-    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_fallbackStyle": "Google"
 }
