@@ -1,5 +1,14 @@
 #!/usr/bin/bash
 
+#****************************************************************************
+# Filename      : install-codium-extensions.sh
+# Created       : Mon Dec 25 2023
+# Author        : Zolo
+# Github        : https://github.com/zolodev
+# Description   : Automate the installation of my favorite extensions
+#****************************************************************************
+
+
 # Run the following command to update the extensions list
 # $ codium --list-extensions > extensions.txt
 # Run the following command to remove|delete all extensions
