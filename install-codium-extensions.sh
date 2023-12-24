@@ -5,13 +5,13 @@
 
 cat extensions.txt | while read extension || [[ -n $extension ]];
 do
-    codium --install-extension $extension --force
-    # codium --uninstall-extension $extension --force
+    codium --install-extension $extension
+    #codium --uninstall-extension $extension --force
 done
 
 echo "Installing local extensions (vsxi)"
 
 for local_extension in ./vsxi/*
 do
-    codium --install-extension $local_extension --force
+    codium --install-extension $local_extension
 done
