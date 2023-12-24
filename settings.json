@@ -87,5 +87,21 @@
     },
     "cmake.configureOnOpen": true,
     "editor.indentSize": "tabSize",
-    "C_Cpp.clang_format_fallbackStyle": "Google"
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "workbench.iconTheme": "material-icon-theme",
+    "sync.forceUpload": false,
+    "sync.gist": "78999c2a4ed3222317580624b807ae53",
+    "sync.autoDownload": true,
+    "cSpell.userWords": [
+        "clippy",
+        "commentbegin",
+        "commentend",
+        "commentprefix",
+        "Fira",
+        "println",
+        "rgba",
+        "Zolo"
+    ],
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
 }
