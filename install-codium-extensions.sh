@@ -8,3 +8,10 @@ do
     codium --install-extension $extension --force
     # codium --uninstall-extension $extension --force
 done
+
+echo "Installing local extensions (vsxi)"
+
+for local_extension in ./vsxi/*
+do
+    codium --install-extension $local_extension --force
+done
