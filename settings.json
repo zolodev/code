@@ -93,6 +93,7 @@
     "sync.gist": "78999c2a4ed3222317580624b807ae53",
     "sync.autoDownload": true,
     "cSpell.userWords": [
+        "autofetch",
         "clippy",
         "commentbegin",
         "commentend",
@@ -104,4 +105,13 @@
     ],
     "git.autofetch": true,
     "workbench.startupEditor": "none",
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "./extensions.txt"
+    ]
 }
