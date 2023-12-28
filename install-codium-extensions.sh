@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 #****************************************************************************
 # Filename      : install-codium-extensions.sh
