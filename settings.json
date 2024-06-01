@@ -156,6 +156,7 @@
     ],
     "redhat.telemetry.enabled": false,
     "files.associations": {
-        "*.json": "jsonc"
+        "*.json": "jsonc",
+        "*.nu": "shellscript"
     }
 }
