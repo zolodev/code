@@ -1,5 +1,11 @@
 # VSCode|VSCodium Settings and Extensions
 
+## Backup extensions
+```bash
+$ codium --list-extensions > extensions.txt
+```
+
+## Install VSCodium for Fedora
 In order to install VSCodium on Fedora39 follow the steps below:
 
 [Instruction Source](https://www.linuxcapable.com/install-vscodium-on-fedora-linux/)
