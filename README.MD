@@ -1,5 +1,11 @@
 # VSCode|VSCodium Settings and Extensions
 
+## Personal favorite font
+
+Download the font from JetBrains.
+[JetBrains Mono](https://www.jetbrains.com/lp/mono/) (JetBrains Mono. A typeface for developers_)
+
+
 ## Backup extensions
 ```bash
 $ codium --list-extensions > extensions.txt
@@ -26,7 +32,9 @@ Followed by the last step 4:
 
 > $ sudo dnf install codium
 
-These are my personal preferences for VSCode
+
+## Old font settings
+These are my _old_ personal preferences for VSCode
 
 Install Fira code Font
 [Fira-code](https://github.com/tonsky/FiraCode/wiki/Installing) (font to make sure vscode code looks nice)

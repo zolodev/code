@@ -18,7 +18,7 @@
             "color": "#333"
         }
     ],
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "css.validate": false,
@@ -41,7 +41,7 @@
             "commentbegin": "/*",
             "commentprefix": " *",
             "commentend": "*/",
-            "company": "Unicorn AB",
+            "company": "",
             "author": "Zolo",
             "github": "https://github.com/zolodev"
         }
@@ -94,14 +94,49 @@
     "sync.autoDownload": true,
     "cSpell.userWords": [
         "autofetch",
+        "avanza",
+        "bbwe",
+        "Bitwarden",
+        "bumbisaft",
         "clippy",
         "commentbegin",
         "commentend",
         "commentprefix",
+        "DAILYS",
+        "Dobbeleer",
         "Fira",
+        "Foxit",
+        "GHUB",
+        "jftuga",
+        "jqlang",
+        "Mfor",
+        "Miniconda",
+        "msmpi",
+        "msstore",
+        "MSVC",
+        "Neovim",
+        "Nmap",
+        "Nushell",
+        "Portmaster",
+        "POWERLINE",
+        "ppmcode",
         "println",
+        "Redist",
         "rgba",
-        "Zolo"
+        "ripgrep",
+        "robbyrussell",
+        "Rustlang",
+        "Rustup",
+        "Safing",
+        "sharkdp",
+        "Teks",
+        "Waterfox",
+        "WEEKLYS",
+        "wekyb",
+        "Winget",
+        "zjson",
+        "Zolo",
+        "zolodev"
     ],
     "git.autofetch": true,
     "workbench.startupEditor": "none",
@@ -113,5 +148,9 @@
         ".vscode",
         ".vscode-insiders",
         "./extensions.txt"
-    ]
+    ],
+    "redhat.telemetry.enabled": false,
+    "files.associations": {
+        "*.json": "jsonc"
+    }
 }
