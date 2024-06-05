@@ -34,12 +34,14 @@ ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 ms-vscode.makefile-tools
 ms-vscode.powershell
+nmsmith89.incrementor
 oderwat.indent-rainbow
 orta.vscode-jest
 patbenatar.advanced-new-file
 pkief.material-icon-theme
 redhat.ansible
 redhat.vscode-yaml
+robertostermann.inline-parameters-extended
 rust-lang.rust-analyzer
 serayuzgur.crates
 shan.code-settings-sync
