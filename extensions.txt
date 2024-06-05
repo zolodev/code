@@ -2,7 +2,9 @@ aaron-bond.better-comments
 antfu.iconify
 astro-build.astro-vscode
 biati.vscode-text-tools
+bierner.github-markdown-preview
 bierner.markdown-mermaid
+bierner.markdown-preview-github-styles
 bradlc.vscode-tailwindcss
 dart-code.dart-code
 dbaeumer.vscode-eslint
@@ -47,6 +49,7 @@ robertostermann.inline-parameters-extended
 rust-lang.rust-analyzer
 serayuzgur.crates
 shan.code-settings-sync
+sndst00m.markdown-github-dark-pack
 streetsidesoftware.code-spell-checker
 swellaby.vscode-rust-test-adapter
 tamasfe.even-better-toml
