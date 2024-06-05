@@ -1,4 +1,5 @@
 aaron-bond.better-comments
+antfu.iconify
 astro-build.astro-vscode
 biati.vscode-text-tools
 bierner.markdown-mermaid
