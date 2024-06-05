@@ -6,6 +6,7 @@ bierner.markdown-mermaid
 bradlc.vscode-tailwindcss
 dart-code.dart-code
 dbaeumer.vscode-eslint
+dennisvhest.npm-browser
 doi.fileheadercomment
 donjayamanne.githistory
 editorconfig.editorconfig
@@ -13,6 +14,7 @@ equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 evondev.indent-rainbow-palettes
+fabiospampinato.vscode-open-in-npm
 formulahendry.auto-rename-tag
 hbenl.test-adapter-converter
 hbenl.vscode-test-explorer
@@ -53,4 +55,5 @@ usernamehw.errorlens
 vadimcn.vscode-lldb
 vue.volar
 wenfangdu.snippet-generator
+wix.vscode-import-cost
 yzhang.markdown-all-in-one
