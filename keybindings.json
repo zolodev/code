@@ -33,5 +33,13 @@
     {
         "key": "ctrl+shift+[Semicolon]",
         "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.advancedNewFile"
     }
 ]

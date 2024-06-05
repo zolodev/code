@@ -35,7 +35,3 @@ do
         codium --disable-extension $extension
     fi
 done
-
-# TODO: Not tested, need to be verified!
-echo "Installing snippets"
-cp ./snippets/*.json ~/.vscode-oss/extensions/snippets  
