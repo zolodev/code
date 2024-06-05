@@ -3,8 +3,8 @@ antfu.iconify
 astro-build.astro-vscode
 biati.vscode-text-tools
 bierner.github-markdown-preview
+bierner.markdown-emoji
 bierner.markdown-mermaid
-bierner.markdown-preview-github-styles
 bradlc.vscode-tailwindcss
 dart-code.dart-code
 dbaeumer.vscode-eslint
@@ -17,7 +17,6 @@ equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 evondev.indent-rainbow-palettes
 fabiospampinato.vscode-open-in-npm
-formulahendry.auto-rename-tag
 hbenl.test-adapter-converter
 hbenl.vscode-test-explorer
 heybourn.headwind
@@ -42,6 +41,7 @@ nmsmith89.incrementor
 oderwat.indent-rainbow
 orta.vscode-jest
 patbenatar.advanced-new-file
+pkief.markdown-checkbox
 pkief.material-icon-theme
 redhat.ansible
 redhat.vscode-yaml
@@ -57,6 +57,7 @@ twxs.cmake
 usernamehw.errorlens
 vadimcn.vscode-lldb
 vue.volar
+waderyan.gitblame
 wenfangdu.snippet-generator
 wix.vscode-import-cost
 yzhang.markdown-all-in-one
