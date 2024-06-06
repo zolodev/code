@@ -1,3 +1,12 @@
+/*****************************************************************************
+* Filename      : install-codium-settings.ps1
+* Created       : Thu Jun 05 2024
+* Author        : Zolo
+* Github        : https://github.com/zolodev
+* Description   : 
+*****************************************************************************/
+
+
 # Copy keybindings configurations
 Copy-Item ./settings.json "$env:APPDATA\VSCodium\User"
 
