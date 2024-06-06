@@ -2,7 +2,6 @@ aaron-bond.better-comments
 antfu.iconify
 astro-build.astro-vscode
 biati.vscode-text-tools
-bierner.github-markdown-preview
 bierner.markdown-emoji
 bierner.markdown-mermaid
 bradlc.vscode-tailwindcss
