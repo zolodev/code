@@ -18,6 +18,7 @@ equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 evondev.indent-rainbow-palettes
 fabiospampinato.vscode-open-in-npm
+formulahendry.auto-rename-tag
 github.vscode-pull-request-github
 gruntfuggly.todo-tree
 hbenl.test-adapter-converter
