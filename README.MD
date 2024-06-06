@@ -1,6 +1,5 @@
-# VSCode|VSCodium Settings and Extensions
+# Codium Settings and Extensions
 
-## Personal favorite font
 
 Download the font from JetBrains.
 [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (JetBrains Mono. A typeface for developers_)
