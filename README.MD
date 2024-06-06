@@ -8,7 +8,7 @@ Download the font from JetBrains.
 
 ## Backup extensions
 ```bash
-$ codium --list-extensions > extensions.txt
+$ codium --list-extensions > ./configuration/extensions.txt
 ```
 
 ## Install VSCodium for Fedora
