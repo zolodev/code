@@ -56,11 +56,11 @@
       "${commentprefix} Description   : ",
       "****************************************************************************${commentend}",
       "",
-      "//! # <Application or Lib Title>",
-      "//! ",
-      "//! <insert a short description here...>",
+      "/// # <Application or Lib Title>",
+      "/// ",
+      "/// <insert a short description here...>",
       "",
-      "#![warn(clippy::all, clippy::pedantic)]"
+      "#[warn(clippy::all, clippy::pedantic)]"
     ]
   },
   "rust-analyzer.inlayHints.renderColons": false,
