@@ -14,6 +14,13 @@
 # Run the following command to remove|delete all extensions
 # rm -rf ~/.vscode-oss/extensions/
 
+# Fallback if "codium" does not exist
+if ! command -v codium >/dev/null 2>&1; then
+    codium() {
+        flatpak run com.vscodium.codium "$@"
+    }
+fi
+
 cat extensions.txt | while read extension || [[ -n $extension ]];
 do
     codium --install-extension $extension --force     
