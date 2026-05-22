@@ -66,3 +66,4 @@ waderyan.gitblame
 wenfangdu.snippet-generator
 wix.vscode-import-cost
 yzhang.markdown-all-in-one
+jeanp413.open-remote-ssh
