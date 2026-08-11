@@ -4,7 +4,7 @@
   "editor.codeActionsOnSave": [
     "source.organizeImports",
     "source.addMissingImports",
-    "source.fixAll"
+    "source.fixAll",
   ],
   // "editor.quickSuggestions": {
   //     "strings": true
@@ -15,15 +15,15 @@
   "editor.rulers": [
     {
       "column": 78,
-      "color": "#333"
-    }
+      "color": "#333",
+    },
   ],
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "css.validate": false,
   "tailwindCSS.includeLanguages": {
-    "plaintext": "javascript"
+    "plaintext": "javascript",
   },
   "tailwindCSS.colorDecorators": true,
   "tailwindCSS.emmetCompletions": true,
@@ -43,8 +43,8 @@
       "commentend": "*/",
       "company": "",
       "author": "Zolo",
-      "github": "https://github.com/zolodev"
-    }
+      "github": "https://github.com/zolodev",
+    },
   },
   "fileHeaderComment.template": {
     "*": [
@@ -60,8 +60,8 @@
       "/// ",
       "/// <insert a short description here...>",
       "",
-      "#[warn(clippy::all, clippy::pedantic)]"
-    ]
+      "#[warn(clippy::all, clippy::pedantic)]",
+    ],
   },
   "rust-analyzer.inlayHints.renderColons": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
@@ -77,13 +77,13 @@
     "rgba(82, 182, 154,0.15)",
     "rgba(82, 182, 154,0.1)",
     "rgba(82, 182, 154,0.05)",
-    "rgba(82, 182, 154,0.025)"
+    "rgba(82, 182, 154,0.025)",
   ],
   "git.confirmSync": false,
   "files.autoSave": "afterDelay",
   "diffEditor.ignoreTrimWhitespace": false,
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "cmake.configureOnOpen": true,
   "editor.indentSize": "tabSize",
@@ -145,7 +145,7 @@
     "Winget",
     "zjson",
     "Zolo",
-    "zolodev"
+    "zolodev",
   ],
   "git.autofetch": true,
   "workbench.startupEditor": "none",
@@ -156,12 +156,12 @@
     ".git/objects",
     ".vscode",
     ".vscode-insiders",
-    "./extensions.txt"
+    "./extensions.txt",
   ],
   "redhat.telemetry.enabled": false,
   "files.associations": {
     "*.json": "jsonc",
-    "*.nu": "shellscript"
+    "*.nu": "shellscript",
   },
   "editor.linkedEditing": false,
   "editor.inlayHints.padding": true,
@@ -264,6 +264,7 @@
     "*.vbproj": "*.config, *proj.user, appsettings.*, bundleconfig.json",
     "*.vue": "$(capture).*.ts, $(capture).*.js, $(capture).story.vue",
     "*.w": "$(capture).*.w, I$(capture).w",
-    "*.xaml": "$(capture).xaml.cs"
-  }
+    "*.xaml": "$(capture).xaml.cs",
+  },
+  "todo-tree.ripgrep.ripgrep": "C:\\Users\\Zolo\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.2.0-x86_64-pc-windows-msvc\\rg.exe",
 }
