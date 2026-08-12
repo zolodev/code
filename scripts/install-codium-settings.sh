@@ -12,23 +12,31 @@
 # Find scripts directory 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
+# macOS path
+MACOS_PATH="$HOME/Library/Application Support/VSCodium/User"
+
 # Flatpak path (Silverblue default)
 FLATPAK_PATH="$HOME/.var/app/com.vscodium.codium/config/VSCodium/User"
 
-# Normal path (RPM, Toolbox, andra distar)
+# Normal path (RPM, Toolbox, and other Linux distributions)
 NORMAL_PATH="$HOME/.config/VSCodium/User"
 
-# Choose correct path depending on how it is installed
-if [ -d "$FLATPAK_PATH" ]; then
+# Choose correct path depending on OS / installation
+if [ "$(uname)" = "Darwin" ]; then
+    TARGET="$MACOS_PATH"
+elif [ -d "$FLATPAK_PATH" ]; then
     TARGET="$FLATPAK_PATH"
 elif [ -d "$NORMAL_PATH" ]; then
     TARGET="$NORMAL_PATH"
 else
-    echo "Can not find VSCodium configurations folder."
+    echo "Cannot find VSCodium configuration folder."
     exit 1
 fi
 
-echo "Use VSCodium folder: $TARGET"
+echo "Using VSCodium folder: $TARGET"
+
+# Make sure target directory exists
+mkdir -p "$TARGET"
 
 # Copy settings
 yes | cp "$SCRIPT_DIR/../configuration/settings.json" "$TARGET/settings.json"
